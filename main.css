@@ -182,3 +182,19 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+/*............................
+            MEDIA
+............................*/
+@media(max-width: 1160){
+    .container{
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+}
